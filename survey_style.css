@@ -1,0 +1,33 @@
+#title_field{
+   text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.form-group
+{
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+}
+
+#f_three{
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+#s_three{
+    min-width: 50%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+
+#submit{
+  
+
+    margin-right: 30px;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Simple Survey">
+    <meta name="author" content="Austin Martin">
+    <title>Simple Survey</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <link href="survey_style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <h1 id="title_field">Please take my simple survey for your information to be added to the database</h1>
+
+    <!-- BEGIN FORM -->
+
+ <div class="form-group">
+
+    <div id="f_three">
+        <div class="form-group">
+            <label for="first_name">Please enter your first name</label>
+            <input type="text" class="form-control" id="first_name">
+        </div>
+
+
+        <div class="form-group">
+            <label for="last_name">Please enter your last name</label>
+            <input type="text" class="form-control" id="last_name">
+        </div>
+
+        <div class="form-group">
+            <label for="street">Please enter your street</label>
+            <input type="text" class="form-control" id="street">
+        </div>
+
+    </div>
+    <div id="s_three">
+        <div class="form-group">
+            <label for="city">Please enter your city</label>
+            <input type="text" class="form-control" id="city">
+        </div>
+
+        <div class="form-group">
+            <label for="state">Please enter your state</label>
+            <input type="text" class="form-control" id="state">
+        </div>
+
+        <div class="form-group">
+            <label for="zip">Please enter your zip code</label>
+            <input type="text" class="form-control" id="zip">
+        </div>
+
+
+    </div>
+
+     <button type="submit" class="btn btn-primary" id="submit">Submit Information</button>
+
+  </div>
+
+
+
+</body>
+</html>
