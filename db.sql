@@ -1,0 +1,17 @@
+DROP DATABASE survey;
+
+CREATE DATABASE survey;
+
+USE survey;
+
+CREATE TABLE user (
+
+user_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(30) NOT NULL,
+last_name VARCHAR(30) NOT NULL,
+street VARCHAR (50) NOT NULL,
+town VARCHAR (50) NOT NULL,
+state VARCHAR (50) NOT NULL, 
+zip_code VARCHAR(9) NOT NULL
+
+);
